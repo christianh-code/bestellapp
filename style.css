@@ -109,3 +109,33 @@
     font-weight: 400;
     line-height: 120%;
 }
+
+.burger-banner {
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgba(231, 108, 31, 1);
+}
+
+.burger-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1440px;
+    height: 110px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.burger-icon {
+    width: 90px;
+    height: 90px;
+}
+
+.burger-title {
+    margin: 0;
+    font-family: "Palanquin", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    color: white;
+}
