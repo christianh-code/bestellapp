@@ -1,1 +1,38 @@
-/* Allgemeine Grundeinstellungen, beispielsweise Abstände und box-sizing. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.mainHeader {
+    height: 130px;
+    background-color: rgba(231, 108, 31, 1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.headerContent {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo {
+    width: 95px;
+    height: 40px;
+    
+}
+
+.menuIcon {
+    width: 60px;
+    height: 60px;
+    
+}
