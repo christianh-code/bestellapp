@@ -139,3 +139,75 @@
     line-height: 120%;
     color: white;
 }
+
+
+.burger-list {
+    max-width: 1440px;
+    margin: 20px auto 0;
+    padding: 0 30px;
+}
+
+.meal-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 715px;
+    min-height: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Palanquin", Arial, sans-serif;
+    background-color: rgba(253, 234, 220, 1);
+}
+
+.meal-image {
+    width: 205px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.meal-info {
+    flex: 1;
+}
+
+.meal-info h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.meal-info p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.meal-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+
+.meal-actions p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.meal-actions button {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+    
+    
+}
+
+
