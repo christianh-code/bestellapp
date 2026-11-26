@@ -28,6 +28,21 @@
     
 }
 
+.hero {
+    width: 100%;
+    max-width: 1440px;
+    height: 510px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
 .restaurant-info {
     display: flex;
     flex-direction: column;
@@ -206,7 +221,6 @@
     border-radius: 20px;
     padding: 5px 10px;
     font-size: 15px;
-    
     
 }
 
